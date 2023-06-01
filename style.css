@@ -638,11 +638,7 @@ margin-bottom: 3rem;
 color: #f0e8e8;
 }
 
-.contact form{
-    display: flex;
-    
-   
-}
+
 
 .footer-input
 {
@@ -654,6 +650,10 @@ color: #f0e8e8;
     font-size: 1.8rem;
     outline: none;
 
+}
+.contact form
+{
+    display: flex;
 }
 .footer-btn
 {
@@ -667,11 +667,13 @@ color: #f0e8e8;
 .gallery
 {
 max-width: 36rem;
+display: flex;
+flex-wrap: wrap;
 }
 
 .image-wrapper
 {
-width: 12rem;
+width: 10rem;
 margin: .4rem;
 overflow: hidden;
 }
@@ -702,3 +704,207 @@ overflow: hidden;
     text-align: center;
 }
 /* end of footer */
+
+@media (max-width:920px)
+{ 
+    .navigation
+    {
+    height: 80vh;
+    }
+    .banner{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+    }
+    .aboutus-content{
+        padding-bottom: 0;
+    }
+    .aboutus-heading
+{
+    font-family: 'Josefin Sans' sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #555;
+    margin-top: 0;
+}
+.sub-heading
+{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #d46211;
+    letter-spacing: 0.1rem;
+}
+.about-us-paragraph
+{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: black;
+    font-style: italic;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.aboutus-btn
+{
+    width: 20rem;
+    border: 1px solid #fff;
+    background-color: #d46211;
+    color:#fff;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+.image
+{
+    width: 20rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 2rem 4rem rgba(30, 31, 28, 0.5);
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+}
+.customer
+{
+    margin-left: 8rem;
+    background-color:rgb(8, 7, 7);
+    height: 110vh;
+    margin-top: -33px;
+}
+.comman-header
+{
+    text-align: center;
+    color: #d46211;
+    margin: 2rem;
+    
+}
+.comman-heading
+{
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+
+}
+.comman-header{
+    padding: 2rem;
+}
+.customer-paragraph
+{
+    font-size: 1.2rem;
+    color:#eee;
+    text-align: center;
+    width: 80%;
+    margin:2rem auto 3rem auto;
+} 
+.customer-card-wrapper
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+.customer-card{
+background-color: #eee;
+width: 40rem;
+display: flex;
+}
+    .customer-card:first-child
+    {
+        margin-bottom: 2rem;
+    }
+
+.main-part
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(2, 62, 71);
+    padding: 2rem;
+}
+.footer-list-wrapper
+{
+    margin: 0 1.5rem;
+}
+.gallery
+{
+max-width: 25rem;
+display: flex;
+flex-wrap: wrap;
+}
+
+.image-wrapper
+{
+width: 6rem;
+margin: .4rem;
+overflow: hidden;
+}
+    .footer-heading
+{
+    font-size: 2rem;
+    color: #d46211;
+    font-weight: 400;
+
+}
+.footer-list-item
+{
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.footer-list-link
+{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #f0e8e8;
+    text-transform: capitalize;
+}
+.contact p
+{  
+font-size: 1rem;
+margin-bottom: 2rem;
+color: #f0e8e8;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-input
+{
+    background-color: #222;
+    color: #fff;
+    border: none;
+    width: 10rem;
+    font-size: 1rem;
+    outline: none;
+    margin-bottom: 1.5rem;
+
+}
+.footer-btn
+{
+    border: none;
+    padding: 0.2rem;
+    cursor: pointer;
+    color: #d46211;
+}
+
+.creator-part
+{
+    background-color: black;
+    padding: 1rem;
+}
+.copyright-text
+{
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+}
